@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-    res.send('Welcome to my first application that I deployed on Heroku');
+    res.send('Another Web application has been deployed!');
 })
 
 app.listen(port, () => {
